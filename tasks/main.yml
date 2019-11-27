@@ -1,0 +1,11 @@
+---
+
+# Groups
+- import_tasks: groups.yml
+  tags:
+    - manala_accounts
+
+# Users
+- import_tasks: users.yml
+  tags:
+    - manala_accounts
